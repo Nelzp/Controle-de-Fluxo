@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+public class ParametrosInvalidosException extends RuntimeException {
 
-public class ParametrosInvalidosException {
+    public ParametrosInvalidosException() {
+        super("O segundo parâmetro deve ser maior que o primeiro.");
+    }
 }
